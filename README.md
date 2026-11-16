@@ -1,1 +1,0 @@
-# 7_Voting_Eligibility_System_RU-26-00072_1O_Vansh-Kumar-Maheshwari
