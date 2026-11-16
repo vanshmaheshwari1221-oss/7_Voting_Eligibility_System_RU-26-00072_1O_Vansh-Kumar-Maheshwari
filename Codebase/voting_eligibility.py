@@ -7,7 +7,7 @@ MAX_AGE = 120
 
 
 def get_name():
-    """Ask for a name until a non-empty one is entered."""
+    
     while True:
         name = input("Name: ").strip()
         if name:
@@ -16,7 +16,7 @@ def get_name():
 
 
 def get_age():
-    """Ask for age until a valid whole number from 0 to 120 is entered."""
+   
     while True:
         try:
             age = int(input("Age: "))
@@ -29,7 +29,7 @@ def get_age():
 
 
 def get_yes_no(prompt):
-    """Ask a y/n question until the answer is 'y' or 'n'."""
+   
     while True:
         answer = input(prompt).strip().lower()
         if answer in ("y", "n"):
@@ -38,7 +38,7 @@ def get_yes_no(prompt):
 
 
 def check_eligibility(age, citizen):
-    """Return (eligible, list_of_reason_lines)."""
+   
     years_left = MIN_VOTING_AGE - age
     if age >= MIN_VOTING_AGE and citizen == "y":
         return True, []
